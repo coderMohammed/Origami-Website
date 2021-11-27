@@ -1,0 +1,45 @@
+h1{
+    color:yellow;
+}
+h2,h3{
+    color: red;
+    text-align: center;
+}
+
+*{
+    border: solid;
+}
+
+.header{
+    background-color:orangered;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(86, 182, 69);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:white;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid img{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: white;
+
+    width: 310px;
+    font-family: fan;
+}
